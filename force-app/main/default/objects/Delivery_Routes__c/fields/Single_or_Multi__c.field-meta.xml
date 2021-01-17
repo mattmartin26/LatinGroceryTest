@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Single_or_Multi__c</fullName>
+    <externalId>false</externalId>
+    <label>Single or Multi</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single Destination</fullName>
+                <default>false</default>
+                <label>Single Destination</label>
+            </value>
+            <value>
+                <fullName>Multi-Customer Destination</fullName>
+                <default>false</default>
+                <label>Multi-Customer Destination</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
